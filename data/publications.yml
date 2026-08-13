@@ -7,6 +7,14 @@
 # 자세한 방법은 UPDATE_GUIDE.md 참고.
 # ─────────────────────────────────────────────
 
+- title: "Budgeted Fixed-Proxy Search for Zero-Shot NAS via Evaluation-Efficient Memetic NAS"
+  authors: "Seungyeop Kang, Wangduk Seo"
+  venue: Electronics
+  year: 2026
+  type: journal
+  link: "https://www.mdpi.com/2079-9302/15/15/3408"
+  highlight: true
+
 - title: "Automatic Background Animation Generation Aligned with LLM-generated Lyrics for Children's Songs"
   authors: "Sanghyuck Lee, Timur Khairulov, Ye-Chan Park, Wangduk Seo, Jaesung Lee"
   venue: Scientific Reports
