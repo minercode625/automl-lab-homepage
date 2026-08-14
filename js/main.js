@@ -34,7 +34,7 @@ function showDataError(containerId, err, path) {
 /* ---------- 멤버 ---------- */
 
 const ROLE_ORDER = { '교수': 0, '박사과정': 1, '석사과정': 2, '학부연구생': 3, '졸업생': 4 };
-const AVATAR_HUES = [212, 262, 174, 38, 320, 90];
+const AVATAR_HUES = [212, 192, 174, 38, 152, 20];
 
 // 논문 저자 볼드 처리용 — members.yml 로드 성공 시 확장됨
 const labNames = new Set(['Wangduk Seo', '서왕덕']);
@@ -382,14 +382,14 @@ function startNeuralBg() {
         const a = nodes[i], b = nodes[j];
         const d = Math.hypot(a.x - b.x, a.y - b.y);
         if (d < LINK_DIST) {
-          ctx.strokeStyle = `rgba(124, 140, 255, ${(1 - d / LINK_DIST) * 0.16})`;
+          ctx.strokeStyle = `rgba(37, 99, 235, ${(1 - d / LINK_DIST) * 0.14})`;
           ctx.lineWidth = 1;
           ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
         }
       }
     }
     for (const n of nodes) {
-      ctx.fillStyle = 'rgba(124, 150, 255, 0.55)';
+      ctx.fillStyle = 'rgba(37, 99, 235, 0.32)';
       ctx.beginPath(); ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2); ctx.fill();
     }
   }
