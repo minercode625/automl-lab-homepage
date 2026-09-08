@@ -50,6 +50,7 @@
 - name: 김경모
   name_en: Kyongmo Kim
   role: 학부연구생
+  photo: images/members/kmkim.png
   interests: [LLM, Meta-Learning]
   email: kyongmo7477@kyonggi.ac.kr
   github: HJ-Kyoungmo-Kim
