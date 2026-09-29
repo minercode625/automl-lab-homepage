@@ -5,6 +5,10 @@
 # 자세한 방법은 UPDATE_GUIDE.md 참고.
 # ─────────────────────────────────────────────
 
+- date: 2026-09
+  category: paper
+  text: "Electronics 논문 게재 — 정지훈 학부연구생 1저자, DR-SCA: Directional Encoder Blocks and Semantic-Conditioned Coordinate Attention for UAV Semantic Segmentation"
+
 - date: 2026-08
   category: paper
   text: "Electronics 논문 게재 — 강승엽 학부연구생 1저자, Budgeted Fixed-Proxy Search for Zero-Shot NAS via Evaluation-Efficient Memetic NAS"

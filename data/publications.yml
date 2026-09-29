@@ -7,12 +7,20 @@
 # 자세한 방법은 UPDATE_GUIDE.md 참고.
 # ─────────────────────────────────────────────
 
+- title: "DR-SCA: Directional Encoder Blocks and Semantic-Conditioned Coordinate Attention for UAV Semantic Segmentation"
+  authors: "Jihoon Jeong, Wangduk Seo"
+  venue: Electronics
+  year: 2026
+  type: journal
+  link: "https://www.mdpi.com/2079-9292/15/19/4396"
+  highlight: true
+
 - title: "Budgeted Fixed-Proxy Search for Zero-Shot NAS via Evaluation-Efficient Memetic NAS"
   authors: "Seungyeop Kang, Wangduk Seo"
   venue: Electronics
   year: 2026
   type: journal
-  link: "https://www.mdpi.com/2079-9302/15/15/3408"
+  link: "https://www.mdpi.com/2079-9292/15/15/3408"
   highlight: true
 
 - title: "Automatic Background Animation Generation Aligned with LLM-generated Lyrics for Children's Songs"
